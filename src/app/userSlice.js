@@ -41,10 +41,10 @@ export const userSlice = createSlice ({
 
             for (const i in box) {
                 if (box[i].id === action.payload.id) {
-                    console.log(box[i].id);
-                    console.log(box[i].name );
-                    console.log(box[i].email);
-                    console.log(box[i].password);
+                    //console.log(box[i].id);
+                    //console.log(box[i].name );
+                    //console.log(box[i].email);
+                    //console.log(box[i].password);
                     box[i].id = action.payload.id;
                     box[i].name = action.payload.name;
                     box[i].email = action.payload.email;
